@@ -1,0 +1,239 @@
+
+@media (max-width:1200px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    header {
+        padding: 1.5rem 3%;
+        padding-bottom: 6rem;
+    }
+
+    section {
+        padding: 0 3%;
+        padding-top: 11rem;
+        padding-bottom: 9rem;
+    }
+
+}
+@media (max-width:768px) {
+
+    html {
+        font-size: 50%;
+    }
+
+
+   body header{
+        padding-bottom: 1.5rem;
+    }
+   header h3{
+        font-size: 2.5rem;
+    }
+
+   header .navbar {
+
+        display: none;
+    }
+
+    header .mobile-menu span {
+
+        display: block;
+        
+
+    }
+
+    /* -------------------Home------------ */
+    .home h1{
+        font-size: 3rem;
+    }
+    .home h2{
+        font-size: 1.7rem;
+        margin: 1rem 0;
+    }
+
+    .home p{
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+
+
+
+    .home .content {
+
+        text-align: center;
+        margin-top: 5rem;
+
+    }
+
+
+    .home .image img {
+
+        display: none;
+    }
+
+
+
+
+
+
+
+/* -----------------feature---------------- */
+    
+.feature {
+     flex-wrap: wrap;
+
+}
+
+.feature .stick{
+    display: none;
+}
+/* .container .box {
+
+   flex-wrap: wrap;
+} */
+.feature .container:first-child .box {
+
+    flex-flow: column;
+
+
+
+}
+
+.feature .container {
+    margin: 1rem 0;
+}
+
+.feature .container h4{
+
+    font-size: 2rem;
+}
+
+
+.feature .container h4::after {
+
+
+    content: "";
+    display: block;
+    background-color: orangered;
+    height: 2px;
+    margin: auto;
+    width: 26rem;
+    margin-top: .41rem;
+
+
+}
+
+
+.box .info h2{
+    color: chocolate;
+    font-size: 1.7rem;
+    margin: 1rem 0;
+}
+
+.box .info p {
+
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+
+
+.feature .container .box{
+   flex-direction: column;
+   margin: 2rem 0;
+}
+.feature .container .box .info{
+
+    text-align: center;
+
+}
+/* -------------about------------ */
+
+ .about {
+    flex-wrap: wrap;
+            background: linear-gradient(rgba(51, 51, 51, 0.571), rgba(51, 51, 51, 0.639)),
+            url(/img/about-img.png);
+            background-repeat: no-repeat;
+            background-position: center 20%;
+            background-size: cover;
+            border-radius: 1rem;
+           
+
+  
+
+}
+
+
+
+.about .content{
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+}
+
+.about h1{
+
+    font-size: 3rem;
+    color: #fff;
+
+    
+  
+
+}
+.about p{
+   
+      font-size: 1.5rem;
+     color: greenyellow;
+      text-align: center;
+        /* background: url(/img/about-img.png); */
+
+}
+
+.about img{
+    display: none;
+}
+
+
+
+/* -----------teacher---------------- */
+.teacher h1{
+    font-size: 2.5rem;
+}
+.teacher p {
+     font-size: 1.5rem;
+}
+
+/* -----------------footer------------------- */
+
+footer{
+    margin: 0;
+    
+}
+
+
+
+footer .contact-container{ 
+    flex-direction: column-reverse;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
